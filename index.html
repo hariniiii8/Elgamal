@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElGamal Encryption Demo</title>
+</head>
+<body>
+    <h1>ElGamal Encryption Demo</h1>
+    
+    <form id="encryptionForm">
+        <label for="plaintext">Enter Plaintext:</label>
+        <input type="text" id="plaintext" required>
+        <button type="button" onclick="encrypt()">Encrypt</button>
+    </form>
+
+    <h2>Results</h2>
+    <p id="encryptedResult">Encrypted Ciphertext (c1, c2): </p>
+    <p id="decryptedResult">Decrypted Plaintext: </p>
+
+    <script src="elgamal.js"></script>
+</body>
+</html>
